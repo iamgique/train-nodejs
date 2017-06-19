@@ -1,0 +1,14 @@
+{
+  "name": "expressProject",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.15.3",
+    "body-parser": "^1.17.2",
+    "compression": "^1.6.2",
+    "morgan": "^1.8.2"
+  },
+  "scripts" : {
+    "dev": "NODE_ENV=development node serverEnvironment",
+    "start": "NODE_ENV=production node serverEnvironment"
+  }
+}
